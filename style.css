@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 29, 29);
+  width: 95vh;
+  height: 95vh;
+  border-radius: 70px;
 }
 
 .board {
@@ -19,3 +29,28 @@
   border: 1px solid lightgray ;
   background-color: white;
 }
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div .input-container {
+  text-align: center;
+}
+
+
