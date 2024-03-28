@@ -72,9 +72,9 @@ function drawBoard(){
 function game(){
   drawBoard();
   slider.oninput = function(){
-    if (this.value > 40){
+    if (this.value > 70){
       msg.style.backgroundColor = 'red'
-      msg.textContent = 'please enter a value below 100'
+      msg.textContent = 'please enter a value below 70'
     }
     else{
       msg.backgroundColor = 'none'
